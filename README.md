@@ -49,9 +49,13 @@
 ## 📂 Folder Structure
 
 📦music-matchmaker
+
 ┣ 📂frontend
+
 ┣ 📂backend
+
 ┣ 📂docs
+
 ┣ 📜README.md
 
 ---
