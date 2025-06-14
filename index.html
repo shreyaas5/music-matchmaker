@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Matchmaker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Music-Matchmaker</h1>
+    <p class="subtitle">Pick your mood to get a song recommendation.</p>
+
+    <div class="card">
+      <div class="label">Choose your vibe:</div>
+      <div class="button-grid">
+        <button onclick="matchMusic('lofi')">Lofi</button>
+        <button onclick="matchMusic('chill')">Chill</button>
+        <button onclick="matchMusic('upbeat')">Upbeat</button>
+        <button onclick="matchMusic('hiphop')">Hip-Hop</button>
+        <button onclick="matchMusic('rock')">Rock</button>
+        <button onclick="matchMusic('love')">Love</button>
+        <button onclick="matchMusic('dance')">Dance</button>
+        <button onclick="matchMusic('sad')">Sad</button>
+      </div>
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
